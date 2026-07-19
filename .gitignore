@@ -1,0 +1,8 @@
+node_modules/
+.harness/state/
+dist/
+*.env
+.env
+.env.local
+.env.*.local
+frontend/dist/

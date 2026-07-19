@@ -1,0 +1,58 @@
+{
+  "love": [
+    "love_communicate_openly",
+    "love_embrace_vulnerability",
+    "love_plan_a_surprise",
+    "love_forgive_past_mistakes",
+    "love_listen_deeply"
+  ],
+  "career": [
+    "career_take_initiative",
+    "career_network_boldly",
+    "career_focus_on_details",
+    "career_pitch_that_idea",
+    "career_invest_in_skills"
+  ],
+  "family": [
+    "family_reconnect_with_roots",
+    "family_offer_support",
+    "family_set_healthy_boundaries",
+    "family_share_a_meal",
+    "family_express_gratitude"
+  ],
+  "growth": [
+    "growth_try_something_new",
+    "growth_meditate_daily",
+    "growth_read_a_book",
+    "growth_step_out_of_comfort_zone",
+    "growth_reflect_on_goals"
+  ],
+  "dos": [
+    "do_meditate",
+    "do_start_new_project",
+    "do_express_feelings",
+    "do_organize_space",
+    "do_take_a_risk"
+  ],
+  "donts": [
+    "dont_argue",
+    "dont_make_impulsive_decisions",
+    "dont_overthink",
+    "dont_ignore_intuition",
+    "dont_overspend"
+  ],
+  "signMeta": {
+    "Aries": { "colors": ["Fiery Red", "Mustard"], "numbers": [1, 9] },
+    "Taurus": { "colors": ["Forest Green", "Soft Pink"], "numbers": [2, 6] },
+    "Gemini": { "colors": ["Bright Yellow", "Light Green"], "numbers": [3, 5] },
+    "Cancer": { "colors": ["Silver", "Pearl White"], "numbers": [2, 7] },
+    "Leo": { "colors": ["Gold", "Orange"], "numbers": [1, 4] },
+    "Virgo": { "colors": ["Earth Brown", "Olive Green"], "numbers": [5, 14] },
+    "Libra": { "colors": ["Pastel Pink", "Sky Blue"], "numbers": [6, 15] },
+    "Scorpio": { "colors": ["Deep Red", "Black"], "numbers": [8, 11] },
+    "Sagittarius": { "colors": ["Purple", "Deep Blue"], "numbers": [3, 9] },
+    "Capricorn": { "colors": ["Charcoal", "Dark Brown"], "numbers": [4, 8] },
+    "Aquarius": { "colors": ["Electric Blue", "Turquoise"], "numbers": [4, 7] },
+    "Pisces": { "colors": ["Sea Green", "Lavender"], "numbers": [3, 12] }
+  }
+}

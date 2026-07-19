@@ -1,0 +1,38 @@
+.unified-starfield {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+  background-color: #0b0f19; /* Deep cosmic blue/black base */
+}
+
+/* Base64 SVG of tiny white dots on transparent background */
+.stars-layer-1, .stars-layer-2 {
+  position: absolute;
+  top: -50vh;
+  left: -50vw;
+  width: 200vw;
+  height: 200vh;
+  background-image: url("data:image/svg+xml,%3Csvg width='200' height='200' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='20' cy='20' r='1' fill='white' opacity='0.8'/%3E%3Ccircle cx='80' cy='120' r='1.5' fill='white' opacity='0.5'/%3E%3Ccircle cx='150' cy='50' r='0.5' fill='white' opacity='0.9'/%3E%3Ccircle cx='180' cy='180' r='1' fill='white' opacity='0.6'/%3E%3Ccircle cx='10' cy='150' r='1' fill='white' opacity='0.7'/%3E%3Ccircle cx='100' cy='30' r='0.5' fill='white' opacity='0.4'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  will-change: transform;
+}
+
+.stars-layer-1 {
+  background-size: 150px 150px;
+  animation: driftStars 60s linear infinite;
+}
+
+.stars-layer-2 {
+  background-size: 300px 300px;
+  animation: driftStars 120s linear infinite reverse;
+  opacity: 0.7;
+}
+
+@keyframes driftStars {
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(20vw, -20vh, 0); }
+}
