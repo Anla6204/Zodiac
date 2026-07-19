@@ -3,8 +3,8 @@ services:
   - type: web
     name: zodiac-backend
     runtime: node
-    plan: free
     region: singapore
+    plan: starter
     rootDir: backend
     buildCommand: npm install
     startCommand: node src/index.js
@@ -15,11 +15,9 @@ services:
       - key: PORT
         value: 3000
 
-  # Frontend: Static Site (React Vite)
-  - type: web
+  # Frontend: Static Site (React Vite) - Free forever
+  - type: static
     name: zodiac-frontend
-    runtime: static
-    plan: free
     rootDir: frontend
     buildCommand: npm install && npm run build
     staticPublishPath: dist
