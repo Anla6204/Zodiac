@@ -3,6 +3,7 @@ services:
   - type: web
     name: zodiac-backend
     runtime: node
+    plan: free
     region: singapore
     rootDir: backend
     buildCommand: npm install
@@ -18,6 +19,7 @@ services:
   - type: web
     name: zodiac-frontend
     runtime: static
+    plan: free
     rootDir: frontend
     buildCommand: npm install && npm run build
     staticPublishPath: dist
